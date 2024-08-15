@@ -1,0 +1,33 @@
+#head{
+   text-align: center;
+}
+
+#text1,p{
+    color:gray;
+    font-weight: 400;
+    
+}
+#para{
+  width:  550px;
+   margin: 0 auto;
+   font-size: 16px;
+
+}
+#content{
+    padding-top: 30px;
+}
+
+@media only screen and (max-width: 800px) {
+  #head h1{
+    font-size: 25px;
+  }
+  #head{
+    padding:0 30px;
+  }
+  #para{
+  font-size: 15px;
+  width: 100%;
+  
+  }
+ 
+  }
