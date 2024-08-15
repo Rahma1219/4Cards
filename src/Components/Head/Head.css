@@ -15,19 +15,23 @@
 }
 #content{
     padding-top: 30px;
+    margin: 0 auto;
 }
 
 @media only screen and (max-width: 800px) {
   #head h1{
-    font-size: 25px;
+    font-size: 23px;
   }
-  #head{
-    padding:0 30px;
-  }
+  /* #head{
+    padding:0 20px; */
+    /* width: 340;
+  } */
   #para{
   font-size: 15px;
-  width: 100%;
+  width: 340px;
   
   }
+
+}
+
  
-  }
